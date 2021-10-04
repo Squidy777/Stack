@@ -20,9 +20,9 @@ def car_controls(car):
     # car.x += 1
     # if car.y > 180:
         if controls('q'):
-            car.xac -= 0.05
+            car.xac -= 0.1
         if controls('e'):
-            car.xac += 0.05
+            car.xac += 0.1
 
         car.xac /= 1.001
     # ...
